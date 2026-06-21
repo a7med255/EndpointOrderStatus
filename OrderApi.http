@@ -1,0 +1,8 @@
+@OrderApi_HostAddress = http://localhost:5084
+
+PUT {{OrderApi_HostAddress}}/api/orders/1/status
+Content-Type: application/json
+
+{
+  "status": "Confirmed"
+}
